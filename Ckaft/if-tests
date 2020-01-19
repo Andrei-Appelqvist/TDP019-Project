@@ -1,0 +1,22 @@
+x = 10
+
+if(x != 50){
+  print("Ja")
+}
+
+if(x == 1){
+  print("Nej")
+}
+else{
+  print("Nej, x är ==", x)
+}
+
+if(5+5*3 == 20)
+{
+  if(x == 10){
+    print("hejsvej")
+  }
+  else{
+    print("pog")
+  }
+}

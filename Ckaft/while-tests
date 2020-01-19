@@ -1,0 +1,14 @@
+t = 1
+while(t < 10){
+  print('t ->', t)
+  t = t + 2
+}
+
+while(true){
+  return print("fds")
+}
+
+while(true){
+  print("hej")
+  break
+}

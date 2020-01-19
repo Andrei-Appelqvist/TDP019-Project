@@ -1,0 +1,24 @@
+wordone = "Ckaft"
+wordtwo = "tfakC"
+wordthree = "abcd"
+wordfour = "efgh"
+for(c in wordone){
+  for(s in wordtwo){
+    for(a in wordthree){
+      for(d in wordfour){
+        print("->",c, s, a, d)
+      }
+    }
+  }
+}
+print(" ")
+for(t = 5; t!= 10; t = t+1){
+print(t)
+}
+
+print(" ")
+a = [2,3,4,5,"hej"]
+
+for(ele in a){
+  print(ele)
+}

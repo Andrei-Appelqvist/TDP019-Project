@@ -1,0 +1,23 @@
+
+print("normal below")
+
+def plus(e){
+h = e + 1
+print("->", h)
+}
+plus(6)
+
+print("-------------------")
+print("Recursion magic lul")
+print("-------------------")
+
+def plusett(x){
+  if(x ==4){
+  print("Korrekt")
+  }
+  else{
+  print("Nej")
+  plusett(x+1)
+  }
+}
+plusett(1)
